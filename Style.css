@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(52, 58, 64, 0.8);
+    color: white;
+    border-bottom: 4px solid #007bff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-question-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(248, 249, 250, 0.8);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-question-container img {
+    width: 224px;
+    height: 224px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.question-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.radio-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 8px;
+}
+
+.navigation-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.navigation-buttons button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+    background-color: #0056b3;
+}
+h2 {
+    font-size: 2rem; /* Adjust the size as needed */
+    font-weight: 700; /* Bold text */
+    color: #ffffff; /* White color for text */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center; /* Center-align the text */
+    text-transform: uppercase; /* Make text uppercase */
+    border-bottom: 2px solid #007bff; /* Bottom border with color */
+    padding-bottom: 10px; /* Padding to make room for the border */
+    font-family: 'Arial', sans-serif; /* Font family */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better contrast */
+    display: inline-block; /* Adjust the container size to fit the text */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for better spacing */
+}
+
+
+
+#result {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(52, 58, 64, 0.8);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 4px solid #007bff;
+}
+
+footer p {
+    margin: 0;
+}
